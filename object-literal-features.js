@@ -20,3 +20,10 @@ obj4["Id"+i]=i;
 }
 
 console.log(obj4.Id1);
+
+
+// functions shorthand
+
+var myObj={getName(){return "my name"}, setName(name){return name;}}
+
+myObj.getName();
